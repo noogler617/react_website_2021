@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Form, Button, Jumbotron, Container, Row, Col } from 'react-bootstrap';
+import { Form, Jumbotron, Col, Button, Container} from 'react-bootstrap';
+import './contact.css'
 
 
 export class Contact extends Component {
@@ -7,42 +8,46 @@ export class Contact extends Component {
         return(
           <div>
           <Jumbotron className="text-center">
-          <h1>Contact</h1>
+          <h2>Connect with me</h2>
           <p>
-            This is a simple hero unit, a simple jumbotron-style component for calling
-            extra attention to featured content or information.
+            Please send me a message if you would like to work with me.
           </p>
       </Jumbotron>
-<Container>
-      <Form>
-            <Row>
-            <Col sm={8}>
-            <Form.Group controlId="formBasicEmail">
-              <Form.Label>Enter Name</Form.Label>
-              <Form.Control type="name" placeholder="Enter Full Name" />
-            </Form.Group>
-            <Form.Group controlId="formBasicPassword">
-              <Form.Label>Enter Email</Form.Label>
-              <Form.Control type="email" placeholder="Email" />
-            </Form.Group>
-            <Form.Group controlId="formBasicPassword">
-              <Form.Label>Phone Number</Form.Label>
-              <Form.Control type="phonenumber" placeholder="Phone Number" />
-            </Form.Group>
-            <Form.Group controlId="exampleForm.ControlTextarea1">
-              <Form.Label>Message</Form.Label>
-              <Form.Control as="textarea" rows="3" />
-            </Form.Group>
-            </Col>
-            <Col sm={4}>
-            </Col>
-            </Row>
-            <Button variant="primary" type="submit">
-              Send Message
-            </Button>
-        </Form>
+      <Container>
+        <Form className="main-form" method="POST" data-netlify="true">
+            <Form.Row>
+                <Form.Group as={Col}>
+                <Form.Label>Full Name</Form.Label>
+                <Form.Control type="name" name="name" placeholder="Enter Full Name" />
+                </Form.Group>
+              </Form.Row>
+              <Form.Row>
+                <Form.Group as={Col}>
+                  <Form.Label>Enter Email.</Form.Label>
+                  <Form.Control type="email" name="email" placeholder="Email" />
+                </Form.Group>
+                </Form.Row>
+                <Form.Group>
+                <Form.Label>Message</Form.Label>
+                <Form.Control as="textarea" rows="4" name="message" />
+                </Form.Group>
+                <Form.Group>
+                <div data-netlify-recaptcha="true"></div>
+                </Form.Group>
+          <Button variant="primary" type="submit">Send Message</Button>
+          </Form>
         </Container>
-        </div>
+
+        <Container>
+          <Jumbotron className="bottom-bar">
+
+          </Jumbotron>
+        </Container>
+
+
+
+
+    </div>
         )
       }
 }

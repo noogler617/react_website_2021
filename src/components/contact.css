@@ -1,0 +1,24 @@
+.text-center {
+  background-color: #41BDD9;
+  margin: 0 0;
+  margin-bottom: 50px;
+}
+
+container {
+  padding-top: 300px;
+}
+
+.form-control {
+  width: 50%;
+  margin: auto auto;
+}
+.main-form {
+  text-align: center;
+}
+.btn {
+  margin-bottom: 20px;;
+}
+
+.bottom-bar {
+  background-color: #41BDD9;
+}

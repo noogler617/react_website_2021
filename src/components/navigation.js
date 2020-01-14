@@ -7,23 +7,25 @@ export class Navigation extends Component {
       render() {
         return(
 
-          <Navbar default collapseOnSelect bg="dark">
-            <Navbar.Collapse>
-            <Nav className="justify-content-center mr-auto" >
-                <Nav.Item>
-                <NavLink className="d-inline p-2 bg-dark text-white" to="/">Home</NavLink>
-                </Nav.Item>
-                <Nav.Item>
-                <NavLink className="d-inline p-2 bg-dark text-white" to="/about">About</NavLink>
-                </Nav.Item>
-                <Nav.Item>
-                <NavLink className=" p-2 bg-dark text-white" to="/contact">Contact</NavLink>
-                </Nav.Item>
-                <Nav.Item>
-                <NavLink className=" p-2 bg-dark text-white" to="/Portfolio">Portfolio</NavLink>
-                </Nav.Item>
-              </Nav>
-            </Navbar.Collapse>
+        <Navbar expand="lg">
+          <Navbar.Brand href="/">Ryan Mills</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ml-auto">
+              <Nav.Item>
+                <NavLink className="d-inline p-2  text-black" to="/">Home</NavLink>
+              </Nav.Item>
+              <Nav.Item>
+                <NavLink className="d-inline p-2  text-black" to="/about">About</NavLink>
+              </Nav.Item>
+              <Nav.Item>
+                <NavLink className=" p-2  text-black" to="/contact">Contact</NavLink>
+              </Nav.Item>
+              <Nav.Item>
+                <NavLink className=" p-2 text-black" to="/Portfolio">Portfolio</NavLink>
+              </Nav.Item>
+                </Nav>
+                </Navbar.Collapse>
           </Navbar>
 
 
