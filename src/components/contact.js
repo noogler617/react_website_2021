@@ -14,7 +14,7 @@ export class Contact extends Component {
           </p>
       </Jumbotron>
       <Container>
-        <Form className="main-form" name="contact" method="POST" data-netlify="true">
+        <Form className="main-form" name="contact" action="POST" data-netlify="true">
             <Form.Row>
                 <Form.Group as={Col}>
                 <Form.Label>Full Name</Form.Label>
@@ -31,7 +31,7 @@ export class Contact extends Component {
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" rows="4" name="message" />
                 </Form.Group>
-                <div netlify-recaptcha="true"></div>
+
           <Button variant="primary" type="submit">Send Message</Button>
           </Form>
         </Container>
