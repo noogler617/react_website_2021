@@ -31,9 +31,7 @@ export class Contact extends Component {
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" rows="4" name="message" />
                 </Form.Group>
-                <Form.Group>
-                <div data-netlify-recaptcha="true"></div>
-                </Form.Group>
+                <div netlify-recaptcha="true"></div>
           <Button variant="primary" type="submit">Send Message</Button>
           </Form>
         </Container>
