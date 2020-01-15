@@ -1,8 +1,32 @@
-h2 {
+h2, p {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1em;
 }
 
 .head-color {
   background-color: #F2BE22;
+  display: block;
   margin: 0;
+}
+
+.card-img-top {
+  height: 50%;
+  width: 100%;
+}
+.card {
+  margin-top: 60px;
+}
+
+.card-body {
+  margin: 10px 10px
+}
+.card-img-top {
+  margin: auto;
+}
+
+.bottom {
+  background-color: #F2BE22;
+  margin:auto;
+  margin-top: 50px;
 }

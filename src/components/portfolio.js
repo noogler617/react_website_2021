@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Jumbotron, Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Jumbotron, Container, Row, Col, Card, Button, CardDeck } from 'react-bootstrap';
 import Barn from '../night-sky.jpg'
 import './portfolio.css';
+import Mirror from '../magic-mirror.jpg'
 
 
 export class Portfolio extends Component {
@@ -10,92 +11,56 @@ export class Portfolio extends Component {
           <div>
           <Jumbotron className="head-color">
           <h2>Portfolio Page</h2>
+          <p>Below are few project i have been working on</p>
+          <p> Links are in the descrpition </p>
           </Jumbotron>
           <Container>
             <Row>
             <Col>
-              <Card style={{ width: '21rem' }}>
+            <CardDeck>
+              <Card bg="dark" text="white">
+                <Card.Img variant="top" src={Mirror} />
+                <Card.Body>
+                  <Card.Title>Raspberry Pi</Card.Title>
+                  <Card.Text>
+                    This is Magic Mirror that I made with a Raspberry Pi. More details in the link below.
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                <Button target="_blank" href="https://www.reddit.com/r/raspberry_pi/comments/ep41cq/magic_mirror_build/">Project Link</Button>
+                </Card.Footer>
+              </Card>
+              <Card bg="dark" text="white">
                 <Card.Img variant="top" src={Barn} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                      MagicMirror Display
-                    </Card.Text>
-                  <Button variant="primary">Live link here.</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-            <Card style={{ width: '21rem' }}>
-              <Card.Img variant="top" src={Barn} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Coming Soon</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                  </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-            </Col>
-            <Col>
-            <Card style={{ width: '21rem' }}>
-              <Card.Img variant="top" src={Barn} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                  </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-            </Col>
-            </Row>
-          </Container>
 
-          <Container>
-            <Row>
-            <Col>
-              <Card style={{ width: '21rem' }}>
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                <Button href="#">Coming Soon</Button>
+                </Card.Footer>
+              </Card>
+              <Card bg="dark" text="white">
                 <Card.Img variant="top" src={Barn} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                      Another Project
-                    </Card.Text>
-                  <Button variant="primary">Click Here.</Button>
+                  <Card.Title>Coming Soon</Card.Title>
+                  <Card.Text>
+
+                  </Card.Text>
                 </Card.Body>
+                <Card.Footer>
+                <Button href="#">Coming Soon</Button>
+                </Card.Footer>
               </Card>
-            </Col>
-            <Col>
-            <Card style={{ width: '21rem' }}>
-              <Card.Img variant="top" src={Barn} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                  </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-            </Col>
-            <Col>
-            <Card style={{ width: '21rem' }}>
-              <Card.Img variant="top" src={Barn} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                  </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+            </CardDeck>
             </Col>
             </Row>
           </Container>
+          <Jumbotron className="bottom">
+          </Jumbotron>
+
           </div>
         )
       }

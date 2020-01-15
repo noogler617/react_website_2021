@@ -1,7 +1,18 @@
 .header-image {
-  position: center;
-  background-size: 50% auto;
-
-
-
+  height: 10%;
+}
+.jumbotron {
+  background-color: white;
+}
+h2, p {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1em;
+}
+.about-section {
+  margin: 0 70px;
+}
+.about-bottom {
+  margin-top: 15px;
+  margin: auto;
+  background-color: #222;
 }

@@ -1,24 +1,29 @@
 import React, { Component } from 'react'
-import { Container, Col, Image } from 'react-bootstrap';
-import Barn from '../night-sky.jpg'
+import { Container, Image, Jumbotron } from 'react-bootstrap';
+import Barn from '../barn.jpg'
+//import Night from '../night.jpg'
 import './about.css'
 export class About extends Component {
       render() {
         return(
           <div>
-          <Container>
-        <Image src={Barn} className="header-image" fluid />
-        </Container>
-        <Container>
-          <Col xs={12} sm={8} smOffset={2}>
+          <Image src={Barn} className="header-image" />
+          <Jumbotron>
+            <h2>About Me...</h2>
+          </Jumbotron>
+        <Container className="about-section">
+            <p>Hello earthling , My name is Ryan. I&rsquo;m a nerd who lives in Boston</p>
+            <p>Currently I work as Desktop Engineer for a consulting company.</p>
+            <p>I Oversee network operations for several small and medium sized businesses in highly regulated
+             environments,</p><p> including the financial services and pharmaceutical industries.</p>
 
-            <h3>About Me...</h3>
+             <p>Outside of work enjoy playing music, taking photo&rsquo;s of the stars, golfing in the summer. </p>
 
-            <p>Fast learning, the self-motivated technology professional that has a rigorous dedication to quality. </p>
-            <p>I'm a highly resourceful and innovative problem solver looking to continue my high trajectory growth in the computer and software industry.</p>
-          </Col>
+             <p>Other hobbies I enjoy doing are building Web apps and Software programs with Javascript and Python. </p>
         </Container>
-      </div>
+        <Jumbotron className="about-bottom">
+        </Jumbotron>
+        </div>
         )
       }
 }
