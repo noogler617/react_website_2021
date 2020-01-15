@@ -18,7 +18,7 @@ export class Contact extends Component {
             <Form.Row>
                 <Form.Group as={Col}>
                 <Form.Label>Full Name</Form.Label>
-                <Form.Control type="name" name="name" placeholder="Enter Full Name" />
+                <Form.Control type="text" name="name" placeholder="Enter Full Name" />
                 </Form.Group>
               </Form.Row>
               <Form.Row>
