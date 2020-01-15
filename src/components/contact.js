@@ -14,7 +14,7 @@ export class Contact extends Component {
           </p>
       </Jumbotron>
       <Container>
-        <Form className="main-form" name="contact" action="POST" data-netlify="true">
+        <Form className="main-form" name="contact">
                 <Form.Group as={Col}>
                 <Form.Control type="text" name="name" placeholder="Enter Full Name" />
                 </Form.Group>
