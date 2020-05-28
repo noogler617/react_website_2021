@@ -22,7 +22,7 @@ export class Navigation extends Component {
                 <NavLink className=" p-2  text-black" to="/contact">Contact</NavLink>
               </Nav.Item>
               <Nav.Item>
-                <NavLink className=" p-2 text-black" to="/Portfolio">Portfolio</NavLink>
+                <NavLink className=" p-2 text-black" to="/portfolio">Portfolio</NavLink>
               </Nav.Item>
                 </Nav>
                 </Navbar.Collapse>
