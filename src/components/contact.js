@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Form, Jumbotron, Col, Button, Container} from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faYoutube, faLinkedin, fainstagram, faGithub  } from '@fortawesome/free-solid-svg-icons'
 import './contact.css'
+
 
 
 export class Contact extends Component {
@@ -28,7 +31,7 @@ export class Contact extends Component {
           </Form>
         </Container>
           <Jumbotron className="bottom-bar">
-
+          <FontAwesomeIcon icon={faLinkedin} />
           </Jumbotron>
 
 
