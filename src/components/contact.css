@@ -22,7 +22,15 @@ container {
 }
 
 .bottom-bar {
-  background-color: #41BDD9;
-  margin: 0 0;
-  
+  background-color: black;
+
+
+}
+.socialLink {
+  text-align: center;
+  padding-left: 15px;
+}
+
+ul {
+  padding: 20px;
 }
