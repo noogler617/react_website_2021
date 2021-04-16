@@ -10,10 +10,7 @@ export class Contact extends Component {
         return(
           <div>
           <Jumbotron className="text-center">
-          <h2>Connect with me</h2>
-          <p>
-            Please send me a message if you would like to work with me.
-          </p>
+          <h2>Please send me a message if you would like to connect</h2>
       </Jumbotron>
       <Container>
         <Form className="main-form" name="contact">

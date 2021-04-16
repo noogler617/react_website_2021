@@ -7,22 +7,22 @@ export class About extends Component {
       render() {
         return(
           <div>
-          <Image src={Barn} className="header-image" />
+
           <Jumbotron>
-            <h2>About Me...</h2>
+            <h2>About Me</h2>
           </Jumbotron>
         <Container className="about-section">
-            <p>Hello earthling , My name is Ryan. I&rsquo;m a nerd who lives in Boston</p>
-            <p>Currently I work as Desktop Engineer for a consulting company.</p>
-            <p>I Oversee network operations for several small and medium sized businesses in highly regulated
-             environments,</p><p> including the financial services and pharmaceutical industries.</p>
+        <div className="text">
+          <p>I am a driven, self-motivated IT professional with extensive experience and training that will
+          enable me to significantly contribute to your company's IT division. My record demonstrates
+          high performance and success, both individually and as a member of a highly functioning
+          team. Therefore, I know that I would be able to continue to thrive in a position with your
+          company.</p>
+          <p>I specialized in System/Network Administrain, as well as Azure and AWS Cloud Administration. </p>
+          </div>
 
-             <p>Outside of work enjoy playing music, taking photo&rsquo;s of the stars, golfing in the summer. </p>
-
-             <p>Other hobbies I enjoy doing are building Web apps and Software programs with Javascript and Python. </p>
         </Container>
-        <Jumbotron className="about-bottom">
-        </Jumbotron>
+
         </div>
         )
       }
