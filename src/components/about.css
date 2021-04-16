@@ -1,6 +1,12 @@
 
+.text {
+
+  margin: 150px 0 0 0;
+  padding: 10px;
+}
+
 .jumbotron {
-  background-color: white;
+  background-color: #72CEF2 ;
 }
 h2, p {
   font-family: 'Roboto', sans-serif;

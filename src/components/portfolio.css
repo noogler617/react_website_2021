@@ -5,9 +5,9 @@ h2, p {
 }
 
 .head-color {
-  background-color: #F2BE22;
+  background-color: #0F8DBF;
   display: block;
-  margin: 0;
+  margin: auto;
 }
 
 .card-img-top {
@@ -26,7 +26,8 @@ h2, p {
 }
 
 .bottom {
-  background-color: #F2BE22;
-  margin:auto;
+  background-color: #071A40;
+  margin: auto;
+  padding: auto;
   margin-top: 50px;
 }
