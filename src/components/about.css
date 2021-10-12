@@ -5,15 +5,16 @@
   padding: 10px;
 }
 
-.jumbotron {
-  background-color: # ;
+.about-jumbotron {
+  background-color: white ;
 }
 h2, p {
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
 }
 
 p {
   margin: auto;
+  padding: inherit;
   text-align: center;
 }
