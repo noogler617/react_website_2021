@@ -1,26 +1,18 @@
 
-
-
-
-.form-control {
-  width: 50%;
-  margin: auto auto;
-}
-.main-form {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-.btn {
-  margin-bottom: 20px;;
-}
-
-
-.socialLink {
-  text-align: center;
-  padding-left: 15px;
-}
-
 ul {
-  padding: 20px;
+  text-align: center;
+  padding: 15px 15px;
+
+}
+
+SocialIcon {
+  padding: 15px;
+}
+
+.text-center {
+  background-color: white;
+}
+
+.bottom-bar {
+  background-color: white;
 }

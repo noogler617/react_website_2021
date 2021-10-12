@@ -8,17 +8,15 @@ export class About extends Component {
         return(
           <div>
 
-          <Jumbotron>
+          <Jumbotron className="about-jumbotron">
             <h2>About Me</h2>
           </Jumbotron>
         <Container className="about-section">
         <div className="text">
-          <p>I am a driven, self-motivated IT professional with extensive experience and training that will
-          enable me to significantly contribute to your company's IT division. My record demonstrates
-          high performance and success, both individually and as a member of a highly functioning
-          team. Therefore, I know that I would be able to continue to thrive in a position with your
-          company.</p>
-          <p>I specialized in System/Network Administrain, as well as Azure and AWS Cloud Administration. </p>
+          <p>Hello, </p>
+          <p>My name is Ryan, welcome to my website.</p>
+          <p>I currently work in IT as a system administrator.
+           I enjoy working with networks, firewalls, Cloud (Azure, AWS) services, creating and breaking Linux servers, and coding with Python.</p>
           </div>
 
         </Container>
