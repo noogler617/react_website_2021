@@ -4,6 +4,7 @@ import Barn from '../night-sky.jpg'
 import './portfolio.css';
 import Mirror from '../magic-mirror.jpg'
 import Radio from '../Car-Radio.jpg'
+import Lab from '../Home-Lab.jpg'
 
 
 export class Portfolio extends Component {
@@ -12,7 +13,7 @@ export class Portfolio extends Component {
           <div>
           <Jumbotron className="head-color">
           <h2>Portfolio Page</h2>
-          <h3>Here you can see what probets that i have created using a Raspberry Pi</h3>
+          <h3>Here you can see what projects that i have created using a Raspberry Pi</h3>
 
           </Jumbotron>
           <Container>
@@ -45,19 +46,22 @@ export class Portfolio extends Component {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                <Button href="https://youtu.be/yzzvHq4B3wU" target="_blank">YouTube Video</Button>
+                <Button href="https://youtu.be/yzzvHq4B3wU" target="_blank" border="dark">YouTube Video</Button>
                 </Card.Footer>
               </Card>
               <Card bg="dark" text="white" border="dark">
-                <Card.Img variant="top" src={Barn} />
+                <Card.Img variant="top" src={Lab} />
                 <Card.Body>
-                  <Card.Title>Coming Soon</Card.Title>
+                  <Card.Title>Home Lab</Card.Title>
                   <Card.Text>
-
+                  This is a home-lab that I have put together and configured to run my home network.
+                  <p>I have a Ubiquti Dream machine Pro, w/ APC Surge Protector, 48 PoE switch.</p>
+                  <p>There are also two raspberry pi boards. One has PiHole with PiVPN & the other is a Raspberry NAS along with a Synology NAS DS220+.</p>
+                  <p></p>
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                <Button href="#">Coming Soon</Button>
+
                 </Card.Footer>
               </Card>
             </CardDeck>

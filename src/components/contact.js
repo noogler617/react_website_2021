@@ -10,18 +10,19 @@ export class Contact extends Component {
         return(
           <div>
           <Jumbotron className="text-center">
-          <h2>Please send me a message if you would like to connect</h2>
+          <h3>Please use the social links below if you would like connect and send a message or follow me on YouTube.</h3>
+
       </Jumbotron>
-      <Container>
+        <Container>
 
         </Container>
           <Jumbotron className="bottom-bar">
           <div className="socialLink">
           <ul>
-            <li className="linkedin"><SocialIcon url="https://www.linkedin.com/in/ryan-k-mills/" /></li>
+            <li className="linkedin"><SocialIcon url="https://www.linkedin.com/in/ryan-k-mills/" target="_blank" /></li>
 
-            <li className="youtube"><SocialIcon url="https://www.youtube.com/channel/UC4mMpfMzB3jnP2xNcawunoA?view_as=subscriber" /></li>
-            <li className="github"><SocialIcon url="https://github.com/noogler617" /></li>
+            <li className="youtube"><SocialIcon url="https://www.youtube.com/channel/UC4mMpfMzB3jnP2xNcawunoA?view_as=subscriber" target="_blank" /></li>
+            <li className="github"><SocialIcon url="https://github.com/noogler617" target="_blank" /></li>
           </ul>
           </div>
           </Jumbotron>
