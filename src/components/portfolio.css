@@ -6,6 +6,7 @@ h2, p {
 
 .head-color {
   background-color: #0F8DBF;
+  text-align: center;
   display: block;
   margin: auto;
 }
@@ -16,6 +17,9 @@ h2, p {
 }
 .card {
   margin-top: 60px;
+}
+Card.Title {
+  text-align: center;
 }
 
 .card-body {

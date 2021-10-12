@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, Jumbotron, Col, Button, Container} from 'react-bootstrap';
+import { Jumbotron, Container} from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 import './contact.css'
 
@@ -18,10 +18,10 @@ export class Contact extends Component {
           <Jumbotron className="bottom-bar">
           <div className="socialLink">
           <ul>
-            <SocialIcon url="https://www.linkedin.com/in/ryan-k-mills/" />
+            <li className="linkedin"><SocialIcon url="https://www.linkedin.com/in/ryan-k-mills/" /></li>
 
-            <SocialIcon url="https://www.youtube.com/channel/UC4mMpfMzB3jnP2xNcawunoA?view_as=subscriber" />
-            <SocialIcon url="https://github.com/noogler617" />
+            <li className="youtube"><SocialIcon url="https://www.youtube.com/channel/UC4mMpfMzB3jnP2xNcawunoA?view_as=subscriber" /></li>
+            <li className="github"><SocialIcon url="https://github.com/noogler617" /></li>
           </ul>
           </div>
           </Jumbotron>
