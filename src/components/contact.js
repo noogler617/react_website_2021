@@ -30,7 +30,7 @@ export class Contact extends Component {
 
 
 
-
+          <p>&copy; Ryan Mills 2021</p>
     </div>
         )
       }

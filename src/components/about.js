@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { Container, Image, Jumbotron } from 'react-bootstrap';
-import Barn from '../barn.jpg'
-//import Night from '../night.jpg'
+import { Container, Image, Jumbotron, Col, Row } from 'react-bootstrap';
+import View from '../Mount-View.JPG'
 import './about.css'
 export class About extends Component {
       render() {
@@ -11,6 +10,13 @@ export class About extends Component {
           <Jumbotron className="about-jumbotron">
             <h2>About Me</h2>
           </Jumbotron>
+          <Container>
+              <Row>
+                <Col>
+                  <Image src={View} thumbnail Fluid />
+                </Col>
+              </Row>
+        </Container>
         <Container className="about-section">
         <div className="text">
           <p>Hello, </p>
@@ -23,7 +29,10 @@ export class About extends Component {
           </div>
 
         </Container>
+        <Jumbotron className="about-jumbotron">
 
+        </Jumbotron>
+        <p>&copy; Ryan Mills 2021</p>
         </div>
         )
       }

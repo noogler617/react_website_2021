@@ -1,12 +1,14 @@
-
+body {
+  background-color: #2E4159;
+}
 .text {
-
   margin: 150px 0 0 0;
   padding: 10px;
 }
 
 .about-jumbotron {
-  background-color: white ;
+  background-color: #2E4159;
+  color: white;
 }
 h2, p {
   font-family: 'Roboto', sans-serif;
@@ -14,6 +16,7 @@ h2, p {
 }
 
 p {
+  color: white;
   margin: auto;
   padding: inherit;
   text-align: center;

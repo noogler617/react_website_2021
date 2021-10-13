@@ -14,7 +14,8 @@ h2, p {
 }
 
 .head-color {
-  background-color: #0F8DBF;
+  background-color: #2E4159;
+  color: white;
   text-align: center;
   display: block;
   margin: auto;
@@ -39,7 +40,7 @@ Card.Title {
 }
 
 .bottom {
-  background-color: #071A40;
+  background-color: #2E4159;
   margin: auto;
   padding: auto;
   margin-top: 50px;

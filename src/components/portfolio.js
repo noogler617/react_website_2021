@@ -70,7 +70,7 @@ export class Portfolio extends Component {
           </Container>
           <Jumbotron className="bottom">
           </Jumbotron>
-
+          <p>&copy; Ryan Mills 2021</p>
           </div>
         )
       }
